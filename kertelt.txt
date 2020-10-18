@@ -1,4 +1,4 @@
-gyakorlás
+gyakorlás#
 
 print("1 - Háromszög")
 print("2 - Kör")
@@ -17,13 +17,13 @@ if v=="3":
 if v=="4":
 	nyolcszogKerulet())
 	nyolcszogTerulet())
-def haromszogKerulet():
-	a=float(input("Kérem a háromszög egyik oldalát(kerület):"))
-	b=float(input("Kérem a háromszög másik oldalát(kerület):"))
-	c=float(input("Kérem a háromszög harmadik oldalát(kerület):"))
-	return float((a+b+c))
+def triangle(a,b,c):
+    print("perimeter: ",a+b+c)
+triangle(3,4,5)
 
-def haromszogTerulet():
-	a=float(input("Kérem a (nem derékszögű) háromszög egyik oldalát(terület):"))
-	m=float(input("Kérem a (nem derékszögű) háromszög magasságát(terület):"))
-	return float((a*m)/2)
+def triangle(a,b,c):
+    print("ker: ",a+b+c)
+a = input("a oldal: ")
+b = input("b oldal: ")
+c = input("c oldal: ")
+triangle(a,b,c)
